@@ -5,18 +5,6 @@ public class Scrabble{
 
 public static void main(String[] args){
 canSpell();
-//check();
-
-String old = "jump";
-System.out.println(old.length());
-String n = old.replace("u", "1");
-String on = n.replace("m","1");
-n.trim();
-System.out.println(old.length());
-
-
-
-System.out.print(on);
 }
 
 public static void check(){
@@ -99,7 +87,7 @@ count ++;
 }//end of for loop
 
 
-//Print if affirmative
+//confirm and print result
 if (count == word.length()){
 System.out.print("HURRAY! This word can be formed from your tile set");
 }else{
