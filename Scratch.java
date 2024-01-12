@@ -12,7 +12,6 @@ public class Scratch {
         String first = names.get(0);
         System.out.print(first);
 
-
         // int[][] b = {{1,2}, {3,4}};
         // //int[] sequence = {1,2,3,4};
         // int[][] c = {{2,5,4}, {7,3,9}, {2,8,1}};
@@ -27,7 +26,28 @@ public class Scratch {
 
         System.out.print(args.length);
 
-        
+        int[][] table = new int[3][3];
+        final int ARRAY_SIZE = 3;
+        int counter = 0;
+
+        for (int x = 0; x < ARRAY_SIZE; x++) {
+            for (int y = 0; y < ARRAY_SIZE; y++) {
+                table[x][y] = counter++;
+                ;
+            }
+        }
+        System.out.print(Arrays.deepToString(table));
+        System.out.println();
+        System.out.println(table.length);
+
     }
+
+    // Time1 class declaration maintains the time in 24-hour format.
+
+
+
+    // Time1 object used in an app.
+
+   
 
 }
