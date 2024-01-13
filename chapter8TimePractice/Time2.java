@@ -18,6 +18,11 @@ public class Time2 {
         this(hour, 0, 0); // invoke constructor with three arguments
     }
 
+    //Time2 constructor: hour and minute supplied, second defaulted to 0
+    public Time2(int hour, int minute){
+        this(hour, minute, 0); //invoke constructor with three arguments
+    }
+
     // Time2 constructor: hour, minute and second supplied
     public Time2(int hour, int minute, int second) {
         if (hour < 0 || hour >= 24)
